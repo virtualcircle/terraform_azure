@@ -5,7 +5,7 @@ provider "azurerm" {
   client_id       = var.clientid
   client_secret   = var.clientsecret
   tenant_id       = var.tenantid
-  #version = ">=2.4"
+  version = ">=2.4"
 }
 
 
